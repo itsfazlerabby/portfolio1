@@ -1,3 +1,57 @@
 body{
-    background-color: aqua;
+    margin: 0;
+}
+.top-section{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    margin-top: 30px;
+    height: 300px;
+    padding-bottom: 100px;
+}
+.half-width{
+    width: 48%;
+    float: left;
+    margin-left: 2%;
+}
+section img{
+    max-width: 300px;
+    width: 100%;
+}
+.half-width a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-image: linear-gradient(45deg, #f0ba79, #fa6806);
+}
+span{
+    color: #a1a123;
+}
+
+
+
+
+.cart{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width-cart{
+    width: 40%;
+    height: 80%;
+    padding: 2%;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 5px 5px 20px gray;
+}
+#left-border-1{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, red, #eb7185);
+    border-image-slice: 1;
+}
+#left-border-2{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
